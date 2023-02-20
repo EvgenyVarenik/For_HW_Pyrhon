@@ -12,7 +12,7 @@
 a = int(input("Введите 6-значный номер биелта: "))
 
 count1 = a // 1000
-sum1 = count1 // 100 + (count1 // 10) % 10 + count1 % 10
+sum1 = count1 // 100 + count1 // 10 % 10 + count1 % 10
 
 count2 = a % 1000
 sum2 = count2 // 100 + (count2 // 10) % 10 + count2 % 10
